@@ -1,0 +1,90 @@
+﻿
+@page "/applicants"
+
+@namespace BlazorAppServer
+
+<h3>ِApplicants</h3>
+
+<br>
+
+<div style="background-color: rgb(175, 173, 170); display: inline-block; border-radius: 15px; padding: 10px 10px 0px 10px;">
+    @if(editmode)
+    {
+        <p><b>Edit Applicant</b></p>
+    }
+    else
+    {
+        <p><b>Add New Applicant</b></p>
+    }
+</div>
+
+@if (applicant is not null)
+{
+    <EditForm Model="@applicant" OnValidSubmit="@( async ()=> await HandleValidSubmit() )">
+
+        <FluentValidationValidator />
+        <ValidationSummary />
+
+        <div class="mb-3">
+            <label for="name" class="form-label"> Name:</label>
+            <InputText class="form-control" @bind-Value="@applicant.Name" placeholder="Enter your name" />
+            <ValidationMessage For="@(() => applicant.Name)" />
+        </div>
+        <div class="mb-3">
+            <label for="name" class="form-label">Mobile:</label>
+            <InputText class="form-control" @bind-Value="@applicant.Mobile" placeholder="Enter your modile" />
+            <ValidationMessage For="@(() => applicant.Mobile)" />
+        </div>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <InputText type="email" class="form-control" @bind-Value="@applicant.Email" placeholder="Enter your email" />
+            <ValidationMessage For="@(() => applicant.Email)" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Age:</label>
+            <InputNumber class="form-control" @bind-Value="@applicant.Age" />
+            <ValidationMessage For="@(() => applicant.Age)" />
+        </div>
+
+        <ValidationSummary />
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="button" class="btn btn-warning" @onclick="@( ()=> Clear() )">Clear</button>
+    </EditForm>
+}
+
+<div class="container mt-5">
+    <h1>Registered Applicants</h1>
+    <table class="table table-striped table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Mobile</th>
+                <th scope="col">Email</th>
+                <th scope="col">Age</th>
+                <th scope="col">Operations</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Applicant item in applicants ?? new())
+            {
+                @* <Modal @ref="modalComponent" Id="@Guid.NewGuid()" ModalTitle="delete" Message="are you sure" OnSave="()=>DeleteApplicant(item)" /> *@
+                <tr>
+                    <td scope="col">@item.Name</td>
+                    <td scope="col">@item.Mobile</td>
+                    <td scope="col">@item.Email</td>
+                    <td scope="col">@item.Age</td>
+                    <td scope="col">
+                        <a href="javascript:void(0)" onclick="@( ()=> EditApplicant(item) )" class="m-1"><i class="bi bi-pencil-fill"></i> </a>
+                        <a href="javascript:void(0)" @onclick="() => DeleteApplicant(item)" class="m-1"><i class="bi bi-trash3 text-danger "></i></a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+
+

@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\1-InnoSummerTraining2024\\18- Session18 07092024 - Blazor Part8\\BlazorAppServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E30CD3-E82A-4A05-9326-9B959F78068F}|BlazorAppServer.csproj|e:\\1-innosummertraining2024\\18- session18 07092024 - blazor part8\\blazorappserver\\repositories\\applicantsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E30CD3-E82A-4A05-9326-9B959F78068F}|BlazorAppServer.csproj|solutionrelative:repositories\\applicantsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wael\\AppData\\Local\\Temp\\.vsdbgsrc\\4dcf567db33b8407e8e7e85491df71d46c06985d33f5ad8d904e52c3b325c6c5\\ExecutionContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E30CD3-E82A-4A05-9326-9B959F78068F}|BlazorAppServer.csproj|e:\\1-innosummertraining2024\\18- session18 07092024 - blazor part8\\blazorappserver\\repositories\\studentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E30CD3-E82A-4A05-9326-9B959F78068F}|BlazorAppServer.csproj|solutionrelative:repositories\\studentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E30CD3-E82A-4A05-9326-9B959F78068F}|BlazorAppServer.csproj|e:\\1-innosummertraining2024\\18- session18 07092024 - blazor part8\\blazorappserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E30CD3-E82A-4A05-9326-9B959F78068F}|BlazorAppServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E30CD3-E82A-4A05-9326-9B959F78068F}|BlazorAppServer.csproj|e:\\1-innosummertraining2024\\18- session18 07092024 - blazor part8\\blazorappserver\\repositories\\dinastudentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E30CD3-E82A-4A05-9326-9B959F78068F}|BlazorAppServer.csproj|solutionrelative:repositories\\dinastudentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E30CD3-E82A-4A05-9326-9B959F78068F}|BlazorAppServer.csproj|e:\\1-innosummertraining2024\\18- session18 07092024 - blazor part8\\blazorappserver\\components\\pages\\students.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E30CD3-E82A-4A05-9326-9B959F78068F}|BlazorAppServer.csproj|solutionrelative:components\\pages\\students.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E30CD3-E82A-4A05-9326-9B959F78068F}|BlazorAppServer.csproj|e:\\1-innosummertraining2024\\18- session18 07092024 - blazor part8\\blazorappserver\\unitofwork\\istudentsunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E30CD3-E82A-4A05-9326-9B959F78068F}|BlazorAppServer.csproj|solutionrelative:unitofwork\\istudentsunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E30CD3-E82A-4A05-9326-9B959F78068F}|BlazorAppServer.csproj|e:\\1-innosummertraining2024\\18- session18 07092024 - blazor part8\\blazorappserver\\unitofwork\\studentsunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E30CD3-E82A-4A05-9326-9B959F78068F}|BlazorAppServer.csproj|solutionrelative:unitofwork\\studentsunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExecutionContext.cs",
+              "DocumentMoniker": "C:\\Users\\wael\\AppData\\Local\\Temp\\.vsdbgsrc\\4dcf567db33b8407e8e7e85491df71d46c06985d33f5ad8d904e52c3b325c6c5\\ExecutionContext.cs",
+              "ToolTip": "C:\\Users\\wael\\AppData\\Local\\Temp\\.vsdbgsrc\\4dcf567db33b8407e8e7e85491df71d46c06985d33f5ad8d904e52c3b325c6c5\\ExecutionContext.cs [Read Only]",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAmwMsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T20:56:14.608Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\1-InnoSummerTraining2024\\18- Session18 07092024 - Blazor Part8\\BlazorAppServer\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\1-InnoSummerTraining2024\\18- Session18 07092024 - Blazor Part8\\BlazorAppServer\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T20:53:17.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Students.razor.cs",
+              "DocumentMoniker": "E:\\1-InnoSummerTraining2024\\18- Session18 07092024 - Blazor Part8\\BlazorAppServer\\Components\\Pages\\Students.razor.cs",
+              "RelativeDocumentMoniker": "Components\\Pages\\Students.razor.cs",
+              "ToolTip": "E:\\1-InnoSummerTraining2024\\18- Session18 07092024 - Blazor Part8\\BlazorAppServer\\Components\\Pages\\Students.razor.cs",
+              "RelativeToolTip": "Components\\Pages\\Students.razor.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAEwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T20:52:16.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentsUnitOfWork.cs",
+              "DocumentMoniker": "E:\\1-InnoSummerTraining2024\\18- Session18 07092024 - Blazor Part8\\BlazorAppServer\\UnitOfWork\\StudentsUnitOfWork.cs",
+              "RelativeDocumentMoniker": "UnitOfWork\\StudentsUnitOfWork.cs",
+              "ToolTip": "E:\\1-InnoSummerTraining2024\\18- Session18 07092024 - Blazor Part8\\BlazorAppServer\\UnitOfWork\\StudentsUnitOfWork.cs",
+              "RelativeToolTip": "UnitOfWork\\StudentsUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T20:48:58.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IStudentsUnitOfWork.cs",
+              "DocumentMoniker": "E:\\1-InnoSummerTraining2024\\18- Session18 07092024 - Blazor Part8\\BlazorAppServer\\UnitOfWork\\IStudentsUnitOfWork.cs",
+              "RelativeDocumentMoniker": "UnitOfWork\\IStudentsUnitOfWork.cs",
+              "ToolTip": "E:\\1-InnoSummerTraining2024\\18- Session18 07092024 - Blazor Part8\\BlazorAppServer\\UnitOfWork\\IStudentsUnitOfWork.cs",
+              "RelativeToolTip": "UnitOfWork\\IStudentsUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T20:48:16.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicantsRepository.cs",
+              "DocumentMoniker": "E:\\1-InnoSummerTraining2024\\18- Session18 07092024 - Blazor Part8\\BlazorAppServer\\Repositories\\ApplicantsRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ApplicantsRepository.cs",
+              "ToolTip": "E:\\1-InnoSummerTraining2024\\18- Session18 07092024 - Blazor Part8\\BlazorAppServer\\Repositories\\ApplicantsRepository.cs",
+              "RelativeToolTip": "Repositories\\ApplicantsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T20:45:49.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DinaStudentsRepository.cs",
+              "DocumentMoniker": "E:\\1-InnoSummerTraining2024\\18- Session18 07092024 - Blazor Part8\\BlazorAppServer\\Repositories\\DinaStudentsRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\DinaStudentsRepository.cs",
+              "ToolTip": "E:\\1-InnoSummerTraining2024\\18- Session18 07092024 - Blazor Part8\\BlazorAppServer\\Repositories\\DinaStudentsRepository.cs",
+              "RelativeToolTip": "Repositories\\DinaStudentsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T20:45:48.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentsRepository.cs",
+              "DocumentMoniker": "E:\\1-InnoSummerTraining2024\\18- Session18 07092024 - Blazor Part8\\BlazorAppServer\\Repositories\\StudentsRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\StudentsRepository.cs",
+              "ToolTip": "E:\\1-InnoSummerTraining2024\\18- Session18 07092024 - Blazor Part8\\BlazorAppServer\\Repositories\\StudentsRepository.cs",
+              "RelativeToolTip": "Repositories\\StudentsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T20:45:31.278Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
